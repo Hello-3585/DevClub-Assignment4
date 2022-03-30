@@ -26,3 +26,8 @@ Example: If the user makes a `GET` request `http://localhost:8080/wordle?q=CRANE
 * You can deploy this simple API using `heroku` if you want the server to run on the cloud
 * Rather than hard-coding the secret word, try to generate it randomly from a list of words. You can also use `fs` package to read the vocabulary from a text file
 * You can make a front-end client which would make requests to this API (rather than having to make requests directly on the browser). It should make requests using `fetch` whenever user makes a guess and then parse the response text, and show feedback to the user accordingly
+
+
+### Submission
+Screenshot Link: https://drive.google.com/drive/folders/1W9opdIpvtXlAtmcs4jDg8d1zPHrJM1Wt?usp=sharing (in folder Wordle+ CIGAR)
+Secret word set to "CIGAR"
