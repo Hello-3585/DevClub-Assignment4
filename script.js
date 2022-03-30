@@ -174,6 +174,41 @@ request.onload = function (e) {
           }
           }
       });
+      const ctx5 = document.getElementById('myChart5').getContext('2d');
+      const myChart5 = new Chart(ctx5, {
+          type: 'line',
+          data: 
+          {
+            labels: ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30"],
+            datasets: [{
+                  
+                  data: [10,10,20,10,01,09,23,23,54,23,24,27,23,25,26,14,23,34,12,13,16,24,35,23,24,34,12,23,37,35],
+                  tension: 0.1,
+                  borderColor: 'rgb(75, 192, 192)'
+              }]
+          },
+          options: 
+          {
+            responsive:false,
+            plugins:{
+            legend:
+            {
+              display:false
+            },
+            title:{
+              text:"Daily Cases",
+              display:true,
+              padding:
+              {top:10},
+              font:
+              {
+                size: 23,
+
+              }
+            }
+          }
+          }
+      });
     } else {
       console.error(request.statusText);
     }
